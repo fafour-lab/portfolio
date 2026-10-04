@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="The research and music portfolio of Abdelghafour Aboukacem, a doctoral researcher developing reliable, explainable, and fairness-aware AI for educational decision support." />
+    <meta name="theme-color" content="#10100f" />
+    <title>Abdelghafour Aboukacem — Research & Music</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310100f'/%3E%3Cpath d='M14 43 29 13h7l14 30h-9l-3-7H25l-3 7zm14-14h8l-4-10z' fill='%23f4f0e6'/%3E%3Ccircle cx='48' cy='16' r='6' fill='%23c8d94d'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#top" aria-label="Abdelghafour Aboukacem, home">
+        <span class="mark" aria-hidden="true">AA</span>
+        <span>Abdelghafour Aboukacem</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span>Menu</span><span class="menu-lines" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#music">Music</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy reveal is-visible">
+          <p class="eyebrow"><span class="pulse" aria-hidden="true"></span> Postdoctoral availability · January 2027</p>
+          <h1 id="hero-title">I study how AI can help more students <em>stay on course.</em></h1>
+          <p class="hero-lede">I’m Abdelghafour, a doctoral researcher developing LLM- and ML-assisted educational decision support that is reliable, explainable, and fair. Outside the lab, I make music.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#research">Explore my research</a>
+            <a class="text-link" href="#publications">View publications <span aria-hidden="true">↓</span></a>
+          </div>
+          <ul class="identity-list" aria-label="Research profile">
+            <li><span>Based at</span> UM6P · Morocco</li>
+            <li><span>Research stay</span> University of Luxembourg · 2026</li>
+            <li><span>Focus</span> LLMs · XAI · Responsible AI</li>
+          </ul>
+        </div>
+        <aside class="hero-visual reveal is-visible" aria-label="Portrait of Abdelghafour Aboukacem">
+          <figure class="portrait-frame">
+            <img src="assets/images/portrait.jpg" alt="Abdelghafour Aboukacem smiling beneath a flowering pergola" width="1515" height="1800" fetchpriority="high" />
+            <figcaption><span>Abdelghafour Aboukacem</span><span>Benguerir, Morocco</span></figcaption>
+          </figure>
+          <div class="orbit-note orbit-note-a">Research<br /><strong>Side A</strong></div>
+          <div class="orbit-note orbit-note-b">Music<br /><strong>Side B</strong></div>
+        </aside>
+        <a class="scroll-cue" href="#research" aria-label="Scroll to selected research">
+          <span>Selected work</span><i aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="section research-section" id="research" aria-labelledby="research-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Research · Side A</p>
+            <h2 id="research-title">Models that perform well—and deserve to be trusted.</h2>
+          </div>
+          <p>My PhD combines large-scale K–12 data, LLMs, structured representations, and systematic evaluation of explanations for reliability, fairness, and actionability.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-topline"><span>01 / Explainable AI</span><span>LAK 2027 · under review</span></div>
+            <div class="project-art project-art-five" aria-hidden="true"><span>.646</span><small>forward simulation</small></div>
+            <div class="project-copy">
+              <h3>Beyond Fidelity</h3>
+              <p>A verifier-constrained Qwen3-8B framework that proposes and evaluates revisions to executable early-warning explanations, separating model fidelity from an observer’s ability to apply an explanation.</p>
+              <ul class="metric-row" aria-label="Project results">
+                <li><strong>.89</strong><span>fidelity</span></li>
+                <li><strong>.646</strong><span>simulation</span></li>
+                <li><strong>.846</strong><span>counterfactual</span></li>
+              </ul>
+              <div class="tag-row"><span>Qwen3-8B</span><span>Proxy simulatability</span><span>Human-centred XAI</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline"><span>02 / Unified modeling</span><span>AISTATS 2027 · under review</span></div>
+            <div class="project-art project-art-one" aria-hidden="true"><span>14</span><small>school levels</small></div>
+            <div class="project-copy">
+              <h3>OneForAll</h3>
+              <p>A DistilBERT-to-neural-classifier pipeline that unifies heterogeneous K–12 student records without manual schema alignment.</p>
+              <ul class="metric-row" aria-label="Project results">
+                <li><strong>2.5M</strong><span>records</span></li>
+                <li><strong>79%</strong><span>dropout recall</span></li>
+                <li><strong>0.83</strong><span>AUC</span></li>
+              </ul>
+              <div class="tag-row"><span>Transformers</span><span>LIME</span><span>Heterogeneous data</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline"><span>03 / LLMs</span><span>AIED · 2024</span></div>
+            <div class="project-art project-art-two" aria-hidden="true"><span>77%</span><small>recall with few-shot RAG</small></div>
+            <div class="project-copy">
+              <h3>LLMs for dropout detection</h3>
+              <p>RAG-assisted few-shot prediction with Zephyr-7B and Mistral-7B, producing student-level rationales alongside predictions.</p>
+              <div class="tag-row"><span>RAG</span><span>Few-shot learning</span><span>Rationales</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline"><span>04 / Fairness</span><span>AIED · 2025</span></div>
+            <div class="project-art project-art-three" aria-hidden="true"><span>≠</span><small>accuracy is not equity</small></div>
+            <div class="project-copy">
+              <h3>Fairness of ensemble learning</h3>
+              <p>A benchmark across 14 sub-datasets and four protected attributes showing that greater model complexity does not guarantee fairer predictions.</p>
+              <div class="tag-row"><span>ABROCA</span><span>Ensembles</span><span>Responsible AI</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline"><span>05 / Representation audit</span><span>AIED · 2026</span></div>
+            <div class="project-art project-art-four" aria-hidden="true"><span>3M+</span><small>records audited</small></div>
+            <div class="project-copy">
+              <h3>When textification fails</h3>
+              <p>Five encoders and five text templates reveal how long inputs collapse representations—and how “fairness through blindness” can mislead.</p>
+              <div class="tag-row"><span>Embedding collapse</span><span>Spectral analysis</span><span>Fairness</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline"><span>06 / Evidence synthesis</span><span>JAIED · under review</span></div>
+            <div class="project-art project-art-six" aria-hidden="true"><span>XAI</span><small>explainable + fair ML</small></div>
+            <div class="project-copy">
+              <h3>Explainable and fair ML for K–12</h3>
+              <p>A systematic review of explainability and fairness in machine-learning approaches to student dropout prediction, with an emphasis on responsible human-in-the-loop support.</p>
+              <div class="tag-row"><span>Systematic review</span><span>Explainability</span><span>Fairness</span></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="photo-story research-story">
+          <div class="gallery-heading reveal">
+            <p class="eyebrow">Research in the world</p>
+            <h3>Conferences, talks, and collaborations.</h3>
+          </div>
+          <div class="photo-gallery research-gallery">
+            <figure class="photo-card photo-card-wide reveal">
+              <a href="assets/images/research-01.jpg" target="_blank" rel="noreferrer"><img src="assets/images/research-01.jpg" alt="Research group gathered outside the University of Luxembourg" width="1800" height="1351" loading="lazy" /></a>
+              <figcaption><span>MINE group</span><span>University of Luxembourg</span></figcaption>
+            </figure>
+            <figure class="photo-card reveal">
+              <a href="assets/images/research-02.jpg" target="_blank" rel="noreferrer"><img src="assets/images/research-02.jpg" alt="Abdelghafour presenting an LLM-assisted student dropout prediction framework" width="1800" height="1350" loading="lazy" /></a>
+              <figcaption><span>Research talk</span><span>LLM-assisted prediction</span></figcaption>
+            </figure>
+            <figure class="photo-card reveal">
+              <a href="assets/images/research-03.jpg" target="_blank" rel="noreferrer"><img src="assets/images/research-03.jpg" alt="Abdelghafour at the AIED 2024 conference in Recife" width="1800" height="1350" loading="lazy" /></a>
+              <figcaption><span>AIED 2024</span><span>Recife</span></figcaption>
+            </figure>
+            <figure class="photo-card photo-card-wide reveal">
+              <a href="assets/images/research-04.jpg" target="_blank" rel="noreferrer"><img src="assets/images/research-04.jpg" alt="Abdelghafour seated in front of the AIED Recife 2024 conference screen" width="1800" height="1350" loading="lazy" /></a>
+              <figcaption><span>AIED 2024</span><span>Recife</span></figcaption>
+            </figure>
+            <figure class="photo-card photo-card-full reveal">
+              <a href="assets/images/research-05.jpg" target="_blank" rel="noreferrer"><img src="assets/images/research-05.jpg" alt="Abdelghafour presenting at AIED 2025 in Palermo" width="1800" height="1350" loading="lazy" /></a>
+              <figcaption><span>AIED 2025</span><span>Palermo</span></figcaption>
+            </figure>
+            <figure class="photo-card photo-card-tall reveal">
+              <a href="assets/images/research-06.jpg" target="_blank" rel="noreferrer"><img src="assets/images/research-06.jpg" alt="Abdelghafour at the Festival of Learning in Seoul" width="1350" height="1800" loading="lazy" /></a>
+              <figcaption><span>Festival of Learning</span><span>Seoul · 2026</span></figcaption>
+            </figure>
+            <figure class="photo-card photo-card-tall reveal">
+              <a href="assets/images/research-07.jpg" target="_blank" rel="noreferrer"><img src="assets/images/research-07.jpg" alt="Abdelghafour beside his When Textification Fails research poster" width="1200" height="1600" loading="lazy" /></a>
+              <figcaption><span>AIED 2026 poster</span><span>Seoul</span></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section publications-section" id="publications" aria-labelledby="publications-title">
+        <div class="section-kicker reveal">
+          <p class="eyebrow">Published & in review</p>
+          <h2 id="publications-title">Writing</h2>
+          <div class="section-links">
+            <a href="https://scholar.google.com/citations?user=2JLK7HMAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+            <a href="https://orcid.org/0009-0001-4938-1575" target="_blank" rel="noreferrer">ORCID <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <ol class="publication-list">
+          <li class="reveal">
+            <span class="pub-year">2026</span>
+            <div><h3>When Textification Fails: Embedding Collapse in Student Dropout Prediction</h3><p>Artificial Intelligence in Education · AIED 2026 · CCIS 3031</p></div>
+            <a class="pub-link" href="https://doi.org/10.1007/978-3-032-29788-4_53" target="_blank" rel="noreferrer" aria-label="Open 2026 publication">DOI ↗</a>
+          </li>
+          <li class="reveal">
+            <span class="pub-year">2025</span>
+            <div><h3>On the Fairness of Ensemble Learning Methods in Student Dropout Prediction</h3><p>Artificial Intelligence in Education · AIED 2025 · LNCS 15881</p></div>
+            <a class="pub-link" href="https://doi.org/10.1007/978-3-031-98462-4_46" target="_blank" rel="noreferrer" aria-label="Open 2025 publication">DOI ↗</a>
+          </li>
+          <li class="reveal">
+            <span class="pub-year">2024</span>
+            <div><h3>Investigating the Predictive Potential of Large Language Models in Student Dropout Prediction</h3><p>Artificial Intelligence in Education · AIED 2024 · LNCS 14830</p></div>
+            <a class="pub-link" href="https://doi.org/10.1007/978-3-031-64299-9_34" target="_blank" rel="noreferrer" aria-label="Open 2024 publication">DOI ↗</a>
+          </li>
+          <li class="reveal publication-pending">
+            <span class="pub-year">Review</span>
+            <div><h3>Beyond Fidelity: Evaluating Student Early-Warning Explanations with Proxy Simulatability</h3><p>Submitted to LAK 2027</p></div>
+            <span class="status-label">Under review</span>
+          </li>
+          <li class="reveal publication-pending">
+            <span class="pub-year">Review</span>
+            <div><h3>OneForAll: Dropout Prediction Across Heterogeneous K–12 Data via Embedding-Based Unification</h3><p>Submitted to AISTATS 2027</p></div>
+            <span class="status-label">Under review</span>
+          </li>
+          <li class="reveal publication-pending">
+            <span class="pub-year">Review</span>
+            <div><h3>Explainable and Fair Machine Learning for K–12 Student Dropout Prediction: A Systematic Review</h3><p>Submitted to JAIED</p></div>
+            <span class="status-label">Under review</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading compact reveal">
+          <div><p class="eyebrow">Trajectory</p><h2 id="experience-title">From knowledge graphs to responsible educational AI.</h2></div>
+          <p>Research spanning industrial NLP, large-scale student modeling, LLM-assisted decision support, and human-centred explainability.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Mar—Sep 2026</div>
+            <div><p class="timeline-place">University of Luxembourg · MINE group</p><h3>Visiting Researcher · Explainable AI in Education</h3><p>Developed proxy-simulatability methods for executable early-warning explanations with Qwen3-8B, including verified revisions, transparent use of source information, and preservation of professional oversight.</p></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Oct 2022—now</div>
+            <div><p class="timeline-place">Mohammed VI Polytechnic University</p><h3>Doctoral Researcher · Student Dropout Prediction</h3><p>Designing RAG-assisted LLM pipelines, structured textification and transformer representations, and inspectable fairness-aware outputs on large-scale Moroccan K–12 data.</p></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2020</div>
+            <div><p class="timeline-place">Oracle Labs</p><h3>Research Assistant · Knowledge Graphs & NLP</h3><p>Built an extraction pipeline from internal bug reports using NER, relation extraction, BERT, SBERT, and graph-embedding benchmarks.</p></div>
+          </article>
+        </div>
+
+        <div class="profile-grid">
+          <article class="profile-panel reveal">
+            <p class="eyebrow">Education</p>
+            <h3>PhD Candidate · UM6P</h3>
+            <p>Machine Learning for Student Dropout Prediction<br /><span>Expected December 2026</span></p>
+            <hr />
+            <h3>MSc · Data Science and Modeling</h3><p>UM6P · 2022</p>
+            <h3>Bachelor’s · Computer Science</h3><p>University Moulay Ismail · 2020</p>
+            <hr />
+            <p class="mini-list"><strong>Languages</strong><br />Arabic · Native<br />English · Fluent (TOEIC 945)<br />French · Conversational</p>
+          </article>
+          <article class="profile-panel reveal">
+            <p class="eyebrow">Teaching & academic service</p>
+            <h3>Python Programming</h3><p>Teaching Assistant · UM6P College of Computing · 2024–2025</p>
+            <h3>Algorithmic Complexity</h3><p>Teaching Assistant · Higher Education Without Borders · 2025</p>
+            <h3>Engineering supervision</h3><p>Supervised development of a deployment platform for ML- and LLM-based dropout decision support.</p>
+            <hr />
+            <p class="mini-list"><strong>Presentations</strong><br />AIED 2026 · Seoul<br />AIED 2025 · Palermo<br />AIED 2024 · Recife<br />NETYS 2023<br /><br /><strong>Peer review</strong><br />AIED 2026 · Cambridge NLP · ICDM 2026<br /><br /><strong>Research support</strong><br />University of Luxembourg · UM6P</p>
+          </article>
+          <article class="profile-panel skill-panel reveal">
+            <p class="eyebrow">Methods & tools</p>
+            <div class="skill-cloud" aria-label="Technical expertise">
+              <span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>Hugging Face</span><span>scikit-learn</span><span>pandas</span><span>NumPy</span><span>ChatGPT API</span><span>Prompt engineering</span><span>RAG</span><span>Few-shot learning</span><span>Fine-tuning</span><span>Structured textification</span><span>Representation learning</span><span>Knowledge graphs</span><span>Proxy simulatability</span><span>LIME</span><span>Fairness analysis</span><span>Human-in-the-loop AI</span><span>SQL</span><span>Git</span><span>Docker</span><span>HPC</span><span>Experiment tracking</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="music-section" id="music" aria-labelledby="music-title">
+        <div class="music-glow" aria-hidden="true"></div>
+        <div class="music-intro reveal">
+          <p class="eyebrow">Music · Side B</p>
+          <h2 id="music-title">Another way of finding patterns.</h2>
+          <p>Electric guitar, ensemble work, and live performance are the other side of my practice. These frames follow the stage, the instrument, and the shared energy around the music.</p>
+        </div>
+        <div class="photo-gallery music-gallery">
+          <figure class="photo-card music-photo-featured reveal">
+            <a href="assets/images/music-01.jpg" target="_blank" rel="noreferrer"><img src="assets/images/music-01.jpg" alt="Abdelghafour playing electric guitar on stage under purple lights" width="1800" height="1200" loading="lazy" /></a>
+            <figcaption><span>Live electric guitar</span><span>On stage</span></figcaption>
+          </figure>
+          <figure class="photo-card reveal">
+            <a href="assets/images/music-02.jpg" target="_blank" rel="noreferrer"><img src="assets/images/music-02.jpg" alt="Close-up of Abdelghafour playing an electric guitar" width="1800" height="1119" loading="lazy" /></a>
+            <figcaption><span>Close to the instrument</span><span>Electric guitar</span></figcaption>
+          </figure>
+          <figure class="photo-card photo-card-wide reveal">
+            <a href="assets/images/music-03.jpg" target="_blank" rel="noreferrer"><img src="assets/images/music-03.jpg" alt="A band performing outdoors beneath an orange pergola" width="1800" height="1200" loading="lazy" /></a>
+            <figcaption><span>Ensemble outdoors</span><span>Live performance</span></figcaption>
+          </figure>
+          <figure class="photo-card reveal">
+            <a href="assets/images/music-04.jpg" target="_blank" rel="noreferrer"><img src="assets/images/music-04.jpg" alt="Abdelghafour performing with guitar under yellow and purple stage lights" width="1800" height="1200" loading="lazy" /></a>
+            <figcaption><span>On stage</span><span>Live set</span></figcaption>
+          </figure>
+          <figure class="photo-card photo-card-wide reveal">
+            <a href="assets/images/music-05.jpg" target="_blank" rel="noreferrer"><img src="assets/images/music-05.jpg" alt="Wide view of a live concert with a crowd under purple stage lights" width="1800" height="1200" loading="lazy" /></a>
+            <figcaption><span>X-ibition</span><span>From the crowd</span></figcaption>
+          </figure>
+          <figure class="photo-card photo-card-tall reveal">
+            <a href="assets/images/music-06.jpg" target="_blank" rel="noreferrer"><img src="assets/images/music-06.jpg" alt="Abdelghafour in a black suit playing electric guitar under blue stage lights" width="1024" height="1536" loading="lazy" /></a>
+            <figcaption><span>Live set</span><span>Electric guitar</span></figcaption>
+          </figure>
+          <figure class="photo-card photo-card-full reveal">
+            <a href="assets/images/music-07.jpg" target="_blank" rel="noreferrer"><img src="assets/images/music-07.jpg" alt="Abdelghafour playing guitar at an outdoor UM6P event" width="1800" height="1200" loading="lazy" /></a>
+            <figcaption><span>UM6P performance</span><span>Live outdoors</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let’s talk about responsible AI, education, or music.</h2>
+        </div>
+        <div class="contact-actions reveal">
+          <a class="contact-email" href="mailto:abdelghafour.aboukacem0@gmail.com">abdelghafour.aboukacem0@gmail.com</a>
+          <div class="contact-links">
+            <a href="https://scholar.google.com/citations?user=2JLK7HMAAAAJ&hl=en" target="_blank" rel="noreferrer">Scholar ↗</a>
+            <a href="https://orcid.org/0009-0001-4938-1575" target="_blank" rel="noreferrer">ORCID ↗</a>
+            <a href="#research">Research ↑</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Abdelghafour Aboukacem</p>
+      <p>Research · music · Morocco</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
